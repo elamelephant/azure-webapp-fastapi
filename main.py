@@ -3,7 +3,7 @@ from fastapi.responses import PlainTextResponse
 
 app = FastAPI()
 
+# API to return Hello World text
 @app.get("/", response_class=PlainTextResponse)
-#@app.get("/")
 async def main():
-    return "Hello world"
+    return "Hello World"
