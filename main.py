@@ -1,9 +1,9 @@
 from fastapi import FastAPI
-#from fastapi.responses import PlainTextResponse
+from fastapi.responses import PlainTextResponse
 
 app = FastAPI()
 
-#@app.get("/", response_class=PlainTextResponse)
-@app.get("/")
+@app.get("/", response_class=PlainTextResponse)
+#@app.get("/")
 async def main():
     return "Hello world"
