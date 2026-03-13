@@ -1,9 +1,9 @@
-# This is an Sample Hello World application from Python FastAPI
+# This is a sample Hello World application from Python FastAPI
 
 ```hcl
-1. This used Open API standared
-2. you can accesss open API via https://localhost:8000/docs
-3. you can disable You can disable OpenAPI docs by setting openapi_url to an empty string in production. like below
+1. This used the Open API standard
+2. You can access the open API via https://localhost:8000/docs
+3. You can disable OpenAPI docs by setting openapi_url to an empty string in production. like below
     from pydantic import BaseSettings
 
     class Settings(BaseSettings):
