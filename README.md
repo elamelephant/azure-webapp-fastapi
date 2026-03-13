@@ -10,5 +10,11 @@
         openapi_url: str = ""
 
 ```
+### Setup in Linux
+
+```hcl
+    pip install -r requirements.txt
+    sh startup.sh
+```
 
 ## Detailed documents are pointed here https://devdocs.io/fastapi/
