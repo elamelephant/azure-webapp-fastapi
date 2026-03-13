@@ -11,5 +11,5 @@ async def main():
 # API to return Hello World text
 @app.get("/hello", response_class=PlainTextResponse)
 async def hello():
-    return "Welcome to the Demo"
+    return "Hello World"
 
